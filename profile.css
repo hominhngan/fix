@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,800;1,200;1,300;1,400&family=Shippori+Antique&display=swap');
 
 * {
-    font-family:"Montserrat", sans-serif;
+    font-family: 'Nunito', sans-serif;
+    scroll-behavior: smooth;
 
 }
-
 
 a {
     text-decoration: none;
-    color:white;
 }
-
+a:visited{
+    color: white;}
 
 body {
     margin: 0px;
@@ -89,7 +89,7 @@ body {
   }
   
   body {
-    font-family: "Montserrat", sans-serif;
+    font-family:  'Nunito', sans-serif;
     line-height: 1.7;
     color: var(--color-white);
     background: white;
@@ -137,8 +137,11 @@ body {
     font-size: 1.3rem;
   }
   h5 {
-    font-size: 0.3rem;
     color:#000;
+    margin: 1px 0px 1x 0px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    padding: 0;
    
   }
   
@@ -519,7 +522,7 @@ input::placeholder {
 .section-heading h3 {
     
     padding: 0px;
-    margin: 10px 0px 0px 0px;
+    margin: 1px 0px 0px 0px;
     border-bottom: solid 1px #25aae1;
 }
 
@@ -671,7 +674,7 @@ input::placeholder {
     padding:0px;
     margin-bottom: 3px;
 }.event-info img{
-    width:15px; height: 15px; padding: 0px 2px 0px 10px;
+    width:15px; height: 15px; padding: 0px 2px 0px 2px;
 }
 
 .small{
@@ -706,7 +709,7 @@ input::placeholder {
     height: 20px;
     margin-right: 5px;
     width:15px; height: 15px;
-    padding: 0px 2px 0px 10px;
+    padding: 0px 3px 0px 2px;
 }
 .smallnews h4{
     padding: 0;
@@ -826,8 +829,8 @@ input::placeholder {
         flex-basis: 50%;
     }
 
-    .expert-item h4,
-    .service-item h4 {
+    .expert-item h5,
+    .service-item h5 {
         margin: 5px 0px 5px 0px;
         font-size: 0.8rem;
         font-weight: 600;
@@ -844,9 +847,9 @@ input::placeholder {
     .addmore p {
         font-size: 0.5rem;
     }
-    .bignews h4{
+    .bignews h5{
         padding: 0;
-        margin: 10px 3px 0px 5px;
+        margin: 0px 3px 10px 5px;
         font-size: 0.8rem;
         text-overflow: ellipsis;
         overflow: hidden;
@@ -884,9 +887,9 @@ input::placeholder {
         border-top-right-radius: 5px;
         border-top-left-radius: 5px;
     }
-    .mobile-bignews h4{
+    .mobile-bignews h5{
         padding: 0;
-        margin: 0px 3px 1px 5px;
+        margin: -1px 5px 2px 5px;
         font-size: 0.4rem;
         text-overflow: ellipsis;
         overflow: hidden;
@@ -995,8 +998,8 @@ input::placeholder {
         flex-basis: 50%;
     }
 
-    .expert-item h4,
-    .service-item h4 {
+    .expert-item h5,
+    .service-item h5 {
         margin: 5px 0px 5px 0px;
         font-size: 0.8rem;
         font-weight: 600;
@@ -1013,7 +1016,7 @@ input::placeholder {
     .addmore p {
         font-size: 0.5rem;
     }
-    .bignews h4{
+    .bignews h5{
         padding: 0;
         margin: 10px 3px 0px 5px;
         font-size: 0.8rem;
@@ -1054,7 +1057,7 @@ input::placeholder {
         border-top-right-radius: 5px;
         border-top-left-radius: 5px;
     }
-    .mobile-bignews h4{
+    .mobile-bignews h5{
         padding: 0;
         margin: 0px 3px 1px 5px;
         font-size: 0.7em;
@@ -1157,12 +1160,12 @@ input::placeholder {
         flex-basis: 33.33333333%;
     }
 
-    .expert-item h4, .service-item h4 {
+    .expert-item h5, .service-item h5 {
         margin: 5px 0px 5px 0px;
         font-size: 1rem;
         font-weight: 600;
     }
-    .bignews h4{
+    .bignews h5{
         padding: 0;
         margin: 5px 3px 0px 5px;
         font-size: 0.8rem;
@@ -1404,6 +1407,7 @@ input::placeholder {
   }
   
   .contact__socials a {
+    color: #FFFFFF;
     background: var(--primary-color);
     padding: 0.5rem;
     border-radius: 50%;
@@ -1655,8 +1659,8 @@ input::placeholder {
         flex-basis: 50%;
     }
 
-    .expert-item h4,
-    .service-item h4 {
+    .expert-item h5,
+    .service-item h5 {
         margin: 5px 0px 5px 0px;
         font-size: 0.8rem;
         font-weight: 600;
@@ -1673,7 +1677,7 @@ input::placeholder {
     .addmore p {
         font-size: 0.5rem;
     }
-    .bignews h4{
+    .bignews h5{
         padding: 0;
         margin: 10px 3px 0px 5px;
         font-size: 0.8rem;
@@ -1967,8 +1971,8 @@ input::placeholder {
         flex-basis: 50%;
     }
 
-    .expert-item h4,
-    .service-item h4 {
+    .expert-item h5,
+    .service-item h5 {
         margin: 5px 0px 5px 0px;
         font-size: 0.8rem;
         font-weight: 600;
@@ -2266,12 +2270,12 @@ input::placeholder {
         flex-basis: 33.33333333%;
     }
 
-    .expert-item h4, .service-item h4 {
+    .expert-item h5, .service-item h4 {
         margin: 5px 0px 5px 0px;
         font-size: 1rem;
         font-weight: 600;
     }
-    .bignews h4{
+    .bignews h5{
         padding: 0;
         margin: 5px 3px 0px 5px;
         font-size: 0.8rem;
@@ -2291,7 +2295,7 @@ input::placeholder {
     .smallnews{
         flex-basis: 31%;
     }
-    .smallnews h4{
+    .smallnews h5{
         padding: 0;
         margin: 1px 5px 0px 5px;
         font-size: 0.6rem;
